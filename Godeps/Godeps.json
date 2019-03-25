@@ -1,0 +1,76 @@
+{
+	"ImportPath": "GoWebLibrary",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/goincremental/negroni-sessions",
+			"Rev": "40b49004abeec57f602bad8509521a865b2be95e"
+		},
+		{
+			"ImportPath": "github.com/goincremental/negroni-sessions/cookiestore",
+			"Rev": "40b49004abeec57f602bad8509521a865b2be95e"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Comment": "v1.1.1-1-g51ce91d",
+			"Rev": "51ce91d2eaddeca0ef29a71d766bb3634dadf729"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.7.0-3-g15a353a",
+			"Rev": "15a353a636720571d19e37b34a14499c3afa9991"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Comment": "v1.1.1-9-ge65cf8c",
+			"Rev": "e65cf8c5df817c89aeb47ecb46064e802e2de943"
+		},
+		{
+			"ImportPath": "github.com/gorilla/sessions",
+			"Comment": "v1.1.3-6-g12bd476",
+			"Rev": "12bd4761fc66ac946e16fcc2a32b1e0b066f6177"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "v1.0.0-10-g5ccc985",
+			"Rev": "5ccc9857e3a95a4233a13e445831cb31b90e73a6"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "v1.0.0-10-g5ccc985",
+			"Rev": "5ccc9857e3a95a4233a13e445831cb31b90e73a6"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-sqlite3",
+			"Comment": "v1.10.0-39-gad30583",
+			"Rev": "ad30583d8387ce8118f8605eaeb3b4f7b4ae0ee1"
+		},
+		{
+			"ImportPath": "github.com/urfave/negroni",
+			"Comment": "v1.0.0-26-g390728d",
+			"Rev": "390728d3c6ab037195ad3ac12daaa0304b0e681a"
+		},
+		{
+			"ImportPath": "github.com/yosssi/ace",
+			"Comment": "v0.0.5-2-g2b21b56",
+			"Rev": "2b21b56204aee785bf8d500c3f9dcbe3ed7d4515"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Rev": "b7391e95e576cacdcdd422573063bc057239113d"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Rev": "b7391e95e576cacdcdd422573063bc057239113d"
+		},
+		{
+			"ImportPath": "gopkg.in/gorp.v1",
+			"Comment": "v1.7.2",
+			"Rev": "6a667da9c028871f98598d85413e3fc4c6daa52e"
+		}
+	]
+}
