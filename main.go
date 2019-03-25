@@ -63,7 +63,9 @@ func initDb() {
 
 	dbmap.AddTableWithName(Book{}, "books").SetKeys(true, "pk")
 	dbmap.AddTableWithName(User{}, "users").SetKeys(false, "username")
-	dbmap.CreateTablesIfNotExists()
+	if err := dbmap.CreateTablesIfNotExists(); err != nil {
+		panic(err)
+	}
 }
 
 func verifyDatabase(writer http.ResponseWriter, request *http.Request, next http.HandlerFunc) {
