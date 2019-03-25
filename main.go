@@ -80,7 +80,7 @@ func getBookCollection(books *[]Book, sortCol, filterByClass, username string, w
 	if sortCol == "" {
 		sortCol = "pk"
 	}
-	where := " where \"user=\"" + dbmap.Dialect.BindVar(0)
+	where := " where \"user\"=" + dbmap.Dialect.BindVar(0)
 	if filterByClass == "fiction" {
 		where += " and classification between '800' and '900'"
 	} else if filterByClass == "nonfiction" {
@@ -120,8 +120,6 @@ type LoginPage struct {
 }
 
 func main() {
-	//templates := template.Must(template.ParseFiles("templates/index.html"))
-	//db, _ = sql.Open("sqlite3", "dev.db")
 	initDb()
 
 	mux := gmux.NewRouter()
